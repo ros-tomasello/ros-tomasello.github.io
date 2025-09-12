@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: CV
@@ -11,10 +10,10 @@ nav_order: 2
 
 **Current positions**  
 - Substitute W3 Professorship (50%) — *Neuroscience of Language & Pragmatics*, Freie Universität Berlin (since 2020)  
-- Research Fellow / Co‑Project Leader — Cluster of Excellence **Matters of Activity**, HU Berlin (since 2019); sub‑project *Cutting* (since 2023)
+- Research Fellow / Co-Project Leader — Cluster of Excellence **Matters of Activity**, HU Berlin (since 2019); sub-project *Cutting* (since 2023)
 
 **Research areas**  
-Neurobiology of language and pragmatics; brain‑constrained neural modeling; rapid symbolic learning; speech act processing; EEG/MEG/fMRI/TMS.
+Neurobiology of language and pragmatics; brain-constrained neural modeling; rapid symbolic learning; speech act processing; EEG/MEG/fMRI/TMS.
 
 **Selected grants & awards**  
 - DFG grant: brain signatures of communication
