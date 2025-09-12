@@ -1,14 +1,24 @@
-
 title: Rosario Tomasello
 first_name: Rosario
 last_name: Tomasello
 lang: en
 icon: 🧠
+
+# User site
 url: "https://ros-tomasello.github.io"
 baseurl: ""
+
+# Use al-folio as a remote theme (no Actions needed)
+remote_theme: alshedivat/al-folio@main
+
+# Only plugin allowed for remote theme performance
+plugins:
+  - jekyll-include-cache
+
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
+
 author:
   name: "Rosario Tomasello"
   avatar: "/assets/img/profile.jpg"
@@ -18,23 +28,3 @@ author:
   orcid: ""
   linkedin: ""
   twitter: ""
-scholar:
-  last_name: [Tomasello]
-  first_name: [Rosario]
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  bibtex_filters: [latex, smallcaps, superscript]
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_link: Details
-  query: "@*"
-  group_by: year
-  group_order: descending
-
-remote_theme: alshedivat/al-folio@main
-plugins:
-  - jekyll-include-cache
