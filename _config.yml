@@ -34,3 +34,7 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+
+remote_theme: alshedivat/al-folio@main
+plugins:
+  - jekyll-include-cache
