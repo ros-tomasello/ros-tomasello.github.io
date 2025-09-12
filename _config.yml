@@ -1,0 +1,36 @@
+
+title: Rosario Tomasello
+first_name: Rosario
+last_name: Tomasello
+lang: en
+icon: 🧠
+url: "https://r-tomasello.github.io"
+baseurl: ""
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+author:
+  name: "Rosario Tomasello"
+  avatar: "/assets/img/profile.jpg"
+  email: ""
+  github: "r-tomasello"
+  scholar: ""
+  orcid: ""
+  linkedin: ""
+  twitter: ""
+scholar:
+  last_name: [Tomasello]
+  first_name: [Rosario]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
