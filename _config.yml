@@ -7,18 +7,25 @@ last_name: Tomasello
 lang: en
 icon: 🧠
 
-# User site (must match repo name ros-tomasello.github.io)
-url: "https://ros-tomasello.github.io"
-baseurl: ""
+# Use al-folio (works with Actions)
+remote_theme: alshedivat/al-folio@main
 
-# Layout options
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-max_width: 930px
+# Jekyll plugins used in this repo build
 plugins:
   - jekyll-include-cache
   - jekyll-scholar
+  - jekyll-remote-theme
+
+# Make Jekyll read files from _pages
+include: ["_pages", "_scripts"]
+
+# (keep your existing settings too)
+url: "https://ros-tomasello.github.io"
+baseurl: ""
+max_width: 930px
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
 
 author:
   name: "Rosario Tomasello"
