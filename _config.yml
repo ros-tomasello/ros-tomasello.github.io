@@ -1,33 +1,46 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 title: Rosario Tomasello
 first_name: Rosario
 last_name: Tomasello
 lang: en
 icon: 🧠
 
-# User site
+# User site (must match repo name ros-tomasello.github.io)
 url: "https://ros-tomasello.github.io"
 baseurl: ""
 
-# Use al-folio as a remote theme (no Actions needed)
-# remote_theme: alshedivat/al-folio@main
-
-# Only plugin allowed for remote theme performance
-#plugins:
- # - jekyll-include-cache
-
+# Layout options
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
+max_width: 930px
 
 author:
   name: "Rosario Tomasello"
   avatar: "/assets/img/profile.jpg"
-  email: ""
+  email: ""            # add if you want a mailto link
   github: "ros-tomasello"
-  scholar: ""
+  scholar: ""          # paste your scholar id/url later
   orcid: ""
   linkedin: ""
   twitter: ""
-# Layout
-max_width: 930px   # you can also use 1000px, 1100px, etc.
 
+# Jekyll Scholar (works in full al-folio with Actions)
+scholar:
+  last_name: [Tomasello]
+  first_name: [Rosario]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
