@@ -9,11 +9,11 @@ url: "https://ros-tomasello.github.io"
 baseurl: ""
 
 # Use al-folio as a remote theme (no Actions needed)
-remote_theme: alshedivat/al-folio@main
+# remote_theme: alshedivat/al-folio@main
 
 # Only plugin allowed for remote theme performance
-plugins:
-  - jekyll-include-cache
+#plugins:
+ # - jekyll-include-cache
 
 navbar_fixed: true
 footer_fixed: true
