@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 
-# Build with plain Jekyll 4 (NOT the github-pages gem)
+# Plain Jekyll 4 build (do NOT use 'github-pages' gem)
 gem "jekyll", "~> 4.3"
-gem "webrick", "~> 1.8"              # needed for Ruby 3 runtimes
+gem "webrick", "~> 1.8"               # needed for Ruby 3 runtimes
+gem "jekyll-remote-theme", "~> 0.4.3" # loads the al-folio theme
 gem "jekyll-include-cache"
-gem "jekyll-scholar"
-gem "jekyll-remote-theme"
-gem "sass-embedded"                  # modern Sass for al-folio SCSS
+gem "sass-embedded", "~> 1.79"        # modern Sass so al-folio SCSS compiles
