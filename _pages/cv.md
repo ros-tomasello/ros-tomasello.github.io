@@ -23,5 +23,3 @@ Neurobiology of language and pragmatics; brain-constrained neural modeling; rapi
 
 **Teaching (selection)**  
 Language & the Brain; Neuropragmatics; Language Evolution; Computational Modeling of Language; Methods in Psycholinguistics/Neurolinguistics.
-
-> You can add full references, service, invited talks, and supervision here or link a PDF.
