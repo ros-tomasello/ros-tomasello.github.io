@@ -1,20 +1,5 @@
-# Turn off the default theme so remote theme can take over
-theme: null
-
-# Use al-folio as the theme (works because we build with Actions)
-remote_theme: alshedivat/al-folio@main
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-# Make sure Jekyll sees your extra folders (optional when you have a root index.md)
-include: ["_pages", "_scripts"]
-
-# keep your current lines as well
 url: "https://ros-tomasello.github.io"
 baseurl: ""
-max_width: 930px
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
+title: Rosario Tomasello
+first_name: Rosario
+last_name: Tomasello
