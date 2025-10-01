@@ -13,7 +13,6 @@ remote_theme: alshedivat/al-folio@main
 # Jekyll plugins used in this repo build
 plugins:
   - jekyll-include-cache
-  - jekyll-scholar
   - jekyll-remote-theme
 
 # Make Jekyll read files from _pages
