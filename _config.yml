@@ -8,19 +8,21 @@ lang: en
 icon: 🧠
 
 # Use al-folio (works with Actions)
-remote_theme: alshedivat/al-folio@main
+#remote_theme: alshedivat/al-folio@main
 
 # Jekyll plugins used in this repo build
-plugins:
-  - jekyll-include-cache
-  - jekyll-remote-theme
+#plugins:
+ # - jekyll-include-cache
+ # - jekyll-remote-theme
 
 # Make Jekyll read files from _pages
-include: ["_pages", "_scripts"]
+#include: ["_pages", "_scripts"]
 
 # (keep your existing settings too)
 url: "https://ros-tomasello.github.io"
 baseurl: ""
+# use a built-in theme for the smoke test
+theme: minima
 max_width: 930px
 navbar_fixed: true
 footer_fixed: true
