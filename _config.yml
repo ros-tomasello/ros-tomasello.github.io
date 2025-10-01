@@ -16,6 +16,9 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 max_width: 930px
+plugins:
+  - jekyll-include-cache
+  - jekyll-scholar
 
 author:
   name: "Rosario Tomasello"
