@@ -16,13 +16,12 @@ profile:
     <p>Habelschwerdter Allee, 14195 Berlin</p>
     <p><a href="mailto:">email</a></p>
 
-# Scholar widgets disabled in Option B (remote theme)
-selected_papers: false
+selected_papers: true     # works with full al-folio + Actions
+social: true
 announcements:
   enabled: false
 latest_posts:
   enabled: false
-social: true
 ---
 
 ## Overview
@@ -42,16 +41,15 @@ I am a cognitive neuroscientist working on the **neurobiology of language** and 
 - DFG grant supporting work on **brain signatures of communication**  
 - Editorial: *Cognitive Processing* (Springer Nature); *Contrastive Pragmatics* (Brill)
 
-## Selected publications (manual)
-- Villani, C., Boux, I. P., Pulvermüller, F., **Tomasello, R.** (2025). *The time course of speech act recognition conveyed by speech prosody: A gating study*. **Language, Cognition and Neuroscience**.  
-- **Tomasello, R.**, Boux, I. P., Pulvermüller, F. (2025, in press). *Theory of Mind and the brain substrates of direct and indirect communicative action understanding*. **Philosophical Transactions of the Royal Society B**.
+## Selected Publications
+(Highlighted items come from `_bibliography/papers.bib` where `selected = {true}`.)
 
 ## Teaching
 - Language & the Brain · Neuropragmatics · Language Evolution · Computational Modeling of Language  
 - >35 BA/MA theses; co-supervision of PhD projects
 
 ## CV
-A concise academic CV is here: **[Curriculum Vitae](/cv/)**.
+A concise academic CV is available here: **[Curriculum Vitae](/cv/)**.
 
 ## Contact
 Freie Universität Berlin · Berlin, Germany  
