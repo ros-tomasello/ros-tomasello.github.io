@@ -1,4 +1,4 @@
-  - name: Build with Jekyll (verbose)
+- name: Build with Jekyll (verbose)
     env:
       JEKYLL_ENV: production
       JEKYLL_LOG_LEVEL: debug
