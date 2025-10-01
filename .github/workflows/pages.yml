@@ -2,8 +2,7 @@ name: GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
@@ -21,21 +20,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: '3.3'
           bundler-cache: true
+
       - name: Install dependencies
         run: |
-          gem install bundler
-          bundle install
-      - name: Build site with Jekyll
-        run: bundle exec jekyll build -d ./_site
+          bundle install --jobs 4 --retry 3
+
+      - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build -d _site --trace
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
   deploy:
     environment:
