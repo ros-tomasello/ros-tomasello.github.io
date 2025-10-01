@@ -1,57 +1,6 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
 title: Rosario Tomasello
-first_name: Rosario
-last_name: Tomasello
-lang: en
-icon: 🧠
-
-# Use al-folio (works with Actions)
-#remote_theme: alshedivat/al-folio@main
-
-# Jekyll plugins used in this repo build
-#plugins:
- # - jekyll-include-cache
- # - jekyll-remote-theme
-
-# Make Jekyll read files from _pages
-#include: ["_pages", "_scripts"]
-
-# (keep your existing settings too)
 url: "https://ros-tomasello.github.io"
 baseurl: ""
+
 # use a built-in theme for the smoke test
 theme: minima
-max_width: 930px
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-
-author:
-  name: "Rosario Tomasello"
-  avatar: "/assets/img/profile.jpg"
-  email: ""            # add if you want a mailto link
-  github: "ros-tomasello"
-  scholar: ""          # paste your scholar id/url later
-  orcid: ""
-  linkedin: ""
-  twitter: ""
-
-# Jekyll Scholar (works in full al-folio with Actions)
-scholar:
-  last_name: [Tomasello]
-  first_name: [Rosario]
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  bibtex_filters: [latex, smallcaps, superscript]
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_link: Details
-  query: "@*"
-  group_by: year
-  group_order: descending
