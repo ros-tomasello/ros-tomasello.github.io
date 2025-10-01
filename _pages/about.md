@@ -16,7 +16,7 @@ profile:
     <p>Habelschwerdter Allee, 14195 Berlin</p>
     <p><a href="mailto:">email</a></p>
 
-selected_papers: true     # works with full al-folio + Actions
+selected_papers: false   # turn on later after you add your bib
 social: true
 announcements:
   enabled: false
@@ -41,16 +41,9 @@ I am a cognitive neuroscientist working on the **neurobiology of language** and 
 - DFG grant supporting work on **brain signatures of communication**  
 - Editorial: *Cognitive Processing* (Springer Nature); *Contrastive Pragmatics* (Brill)
 
-## Selected Publications
-(Highlighted items come from `_bibliography/papers.bib` where `selected = {true}`.)
-
 ## Teaching
 - Language & the Brain · Neuropragmatics · Language Evolution · Computational Modeling of Language  
 - >35 BA/MA theses; co-supervision of PhD projects
 
 ## CV
-A concise academic CV is available here: **[Curriculum Vitae](/cv/)**.
-
-## Contact
-Freie Universität Berlin · Berlin, Germany  
-GitHub: [ros-tomasello](https://github.com/ros-tomasello)
+See **[Curriculum Vitae](/cv/)**.
