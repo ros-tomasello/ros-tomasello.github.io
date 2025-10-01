@@ -28,3 +28,5 @@ author:
   orcid: ""
   linkedin: ""
   twitter: ""
+# Layout
+max_width: 930px   # you can also use 1000px, 1100px, etc.
